@@ -1,27 +1,27 @@
 "use client";
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
-import { Card } from "../components/card";
 import { Navigation } from "../components/nav";
+import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Linkedin size={20} />,
-		href: "https://www.linkedin.com/in/theodore-huntalas-487a2b279/",
-		label: "LinkedIn",
-		handle: "Theo Huntalas",
+		icon: <Twitter size={20} />,
+		href: "https://twitter.com/chronark_",
+		label: "Twitter",
+		handle: "@chronark_",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:theo.h131@gmail.com",
+		href: "mailto:dev@chronark.com",
 		label: "Email",
-		handle: "theo.h131@gmail.com",
+		handle: "dev@chronark.com",
 	},
 	{
 		icon: <Github size={20} />,
-		href: "https://github.com/TheoH32",
+		href: "https://github.com/chronark",
 		label: "Github",
-		handle: "TheoH32",
+		handle: "chronark",
 	},
 ];
 

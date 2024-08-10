@@ -1,12 +1,12 @@
-import "../global.css";
 import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
 import { Metadata } from "next";
+import "../global.css";
 import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
+    default: "Theo Huntalas - Portfolio",
     template: "%s | chronark.com",
   },
   description: "Co-founder of unkey.dev and founder of planetfall.io",
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     title: "chronark.com",
     description:
       "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+    url: "https://theohuntalas.vercel.app",
+    siteName: "theohuntalas.vercel.app",
     images: [
       {
         url: "https://chronark.com/og.png",
